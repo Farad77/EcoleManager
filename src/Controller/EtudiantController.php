@@ -13,7 +13,9 @@ class EtudiantController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->render('truc/index.html.twig', [
+
+        return $this->render('bidule/index.html.twig', [
+
             'controller_name' => 'EtudiantController',
         ]);
     }
